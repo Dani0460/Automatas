@@ -1,6 +1,6 @@
 import exrex
 
-lista=(list(exrex.generate('\d((\.|E)((a|b){1}|E)){1}(E|\.)dacp((((\.|E)(a|b){1}){1})|E)\.1795240')))
+lista=(list(exrex.generate('\d{1}((\.|E)((a|b){1}|E)){1}(E|\.)dacp((((\.|E)(a|b){1}){1})|E)\.1795240')))
 #matching = [s for s in lista if "dacp" in s]
 
 print(lista)
