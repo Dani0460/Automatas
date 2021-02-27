@@ -1,6 +1,6 @@
 import exrex
 
-lista=(list(exrex.generate('\d{1}((\.|E)((a|b){1}|E)){1}(E|\.)dacp((((\.|E)(a|b){1}){1})|E)\.1795240')))
+lista=(list(exrex.generate("(1|7|9|5|2|4|0){1}((\.|E)((a|b){1}|E)){1}(E|\.)dacp((((\.|E)(a|b){1}){1})|E)\.1795240")))
 for i in range(len(lista)):
     
     if('E' in lista[i]):
