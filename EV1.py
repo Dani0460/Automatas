@@ -5,8 +5,7 @@ txt=input()
 match=re.match("^((1|7|9|5|2|4|0)+)((\.|E)((d|a|n|i|e|l|j|r|o|c|u|z|1|7|9|5|2|4|0)+))*(E|\.)(dacp)(((\.|E)(d|a|n|i|e|l|j|r|o|c|u|z|1|7|9|5|2|4|0)+)*|E)(\.1795240$)",txt)
 txt=txt.replace('E','')
 print(txt)
-is_match=bool(match)
-print(is_match)
-
-
-
+if(bool(match)==True):
+    print("Cadena Valida")
+else:
+    print("Cadena invalida")
