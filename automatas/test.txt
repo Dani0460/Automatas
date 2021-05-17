@@ -1,0 +1,6 @@
+programa test123;
+iniciar
+leer a1;
+imprimir a1;
+identificador1 := 1;
+terminar
