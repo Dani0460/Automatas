@@ -12,7 +12,7 @@ class regexIdentificador:
 
 
 def justified():
-    with open("test.txt",'r') as file:
+    with open("archivo.txt",'r') as file:
         for line in file:
             if line[0:1].isspace():
                 return False
@@ -87,7 +87,7 @@ validez=1
 
 d={}
 lines=0
-f=open("test.txt","r")
+f=open("archivo.txt","r")
 for x in f:
 #    print(x)
     d[lines]=x.split()
@@ -166,8 +166,7 @@ for key in d.keys():
             break
 
 print("No hubo errores")
-print(identificadores)
-bool(re.match("^[a-z](\w*);", "a1")) 
+#print(identificadores)
+
 
     
-
